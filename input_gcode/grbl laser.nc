@@ -1,0 +1,28 @@
+%
+(1001)
+(Machine)
+(  vendor: Autodesk)
+(  description: Generic Cutting Machine)
+G90 G94
+G17
+G21
+
+(2D Profile1)
+G54
+G0 S255 M4
+G0 X9.85 Y10.5
+G1 X9.95 F400
+G1 Y29.5
+G1 X9.957 Y29.525
+G1 X9.975 Y29.543
+G1 X10 Y29.55
+G1 X20
+G1 X20.025 Y29.543
+G1 X20.043 Y29.525
+G1 X20.05 Y29.5
+G1 Y10.55
+G1 X29.95
+G1 Y29.5
+G1 S0
+M30
+%
