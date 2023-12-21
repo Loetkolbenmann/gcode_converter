@@ -8,6 +8,6 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import numpy as np
 
-gcode = gcode_to_array(Path('input_gcode','slab_gcode.gcode'))
+gcode = gcode_to_array(Path('input_gcode','nanojet_sample.gcode'))
 
-visualize_paths(gcode,include_positioning_move=True)
+visualize_paths(gcode)
